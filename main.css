@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+
+}
+#nav {
+    display: inline-block
+}
+#nav, .subnav{
+    list-style-type: none;
+}
+#header{
+    height: 46px;
+    background-color: yellow;
+}
+#nav > li {
+    display: inline-block;
+}
+#nav li{
+    position: relative;
+}
+#nav > li > a {
+    color: black;
+    text-transform: uppercase;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav li a{
+    text-decoration: none;    
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+#nav > li:hover > a,
+#nav .subnav li:hover a{
+     color: black;
+    background-color: #ccc;
+}
+   
+#nav .subnav {
+    display: none;
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    position: absolute;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#nav .subnav a{
+    color: black;
+    display: block;
+    padding: 0 12px;
+    line-height: 38px;
+}
+#nav .nav-down{
+    font-size: 10px;
+}
+#header .search-btn{
+    float: right;
+    padding: 0 21px;
+    line-height: 46px;
+}
+#header .search-btn:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+#nav .search-icon{
+    color: black;
+    font-size: 20px;
+}
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#img {
+    margin-top: 46px;
+    padding-top: 50%;
+    background-image: url(/img/eaut2.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#content .about-section{
+    width: 800px;
+    padding: 70px 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+#content .section-heading{
+    font-size: 50px;
+    text-align: center;
+}
+#content .sub-heading{
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    opacity: 0.5;
+}
+#content .sub-section{
+    text-align: justify;
+    font-size: 20px;
+}
+#content .sub-img{
+    text-align: center;
+}
+.ban-lanh-dao #slide{
+    justify-content: center;
+}
+.ban-lanh-dao .chuc-danh{
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.ban-lanh-dao .nganh-hoc{
+    font-size: 20pt;
+    color: #9D9FA2;
+    text-transform: uppercase;
+}
+.ban-lanh-dao .ten{
+    font-size: 3rem;
+    color: #ffca05;
+    font-weight: 900;
+}
+.w-100{
+    width: 100% !important;
+}
+.ban-lanh-dao .chuc-danh-1{
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.ban-lanh-dao .nganh-hoc-1{
+    font-size: 20pt;
+    color: #9D9FA2;
+    text-transform: uppercase;
+}
+.ban-lanh-dao .ten-1{
+    font-size: 2.7rem;
+    color: #ffca05;
+    font-weight: 900;
+}
+.w-100{
+    width: 100% !important;
+}
+.ban-lanh-dao .chuc-danh-2{
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.ban-lanh-dao .nganh-hoc-2{
+    font-size: 20pt;
+    color: #9D9FA2;
+    text-transform: uppercase;
+}
+.ban-lanh-dao .ten-2{
+    font-size: 2.7rem;
+    color: #ffca05;
+    font-weight: 900;
+}
+.w-100{
+    width: 100% !important;
+}
+.event-section .section-heading{
+    text-align: center;
+}
