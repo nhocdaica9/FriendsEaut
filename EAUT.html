@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="fonts/themify-icons/themify-icons.css".css>
     <script src="https://kit.fontawesome.com/8a7686443a.js" crossorigin="anonymous"></script>
@@ -23,27 +24,29 @@
         <div id="header">
             <!-- Start: nav -->
             <ul id="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Members</a></li>
-                <li><a href="">Events</a></li>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="">Thành viên</a></li>
+                <li><a href="">Sự kiện</a></li>
                 <li>
-                    <a href="">
-                        Contact
+                    <a href="#Liên hệ">
+                        Liên hệ
                         <i class="nav-down ti-angle-down"></i>
                     </a>
                     <ul class="subnav">
-                        <li><a href="">Facebook</a></li>
+                        <li><a href="https://www.facebook.com/eaut.englishclub  ">Facebook</a></li>
                         <li><a href="">Zalo</a></li>
                     </ul>
                 </li>
             </ul>
             <!-- Finish: nav -->
-            <!-- Start: Search button -->
+            <!--Search button -->
             <div class="search-btn">
                 <i class="search-icon ti-search"></i>
             </div>
-            <!-- Finish: Search button -->
-
+            <!-- Mobile button -->
+            <div id="mobile-menu" class="menu-mobile-btn">
+              <i class="menu-icon ti-menu"></i>
+            </div>
         </div>
         <div id="img">
         </div>
@@ -59,130 +62,221 @@
                         Giải nghĩa cái tên F.R.I.E.N.D.S: lấy cảm hứng từ một show truyền hình đình đám một thời của Mỹ.
                     </p>
                     <div class="sub-img">
-                        <img src="/img/Eaut7.png" alt="">
+                        <img src="./img/Eaut7.png" alt="" class="mobile-img">
                       </div>
                     <p class="sub-section">
                         Câu lạc bộ luôn luôn chào đón tất cả các sinh viên, không phân biệt tuổi tác, trình độ.
                     </p>
                 </div>
+                <div id="ban-lanh-dao" class="ban-lanh-dao d-block my-x1-5 my-3">
+                  <div class="container" id="slide"  style="width: 700px;">
+                      <div id="demo" class="carousel slide" data-ride="carousel">
+                
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                          <li data-target="#demo" data-slide-to="0" class="active"></li>
+                          <li data-target="#demo" data-slide-to="1"></li>
+                          <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                        
+                        <!-- The slideshow -->
+                        <div class="carousel-inner" style="width: 700px;">
+                          <!--Begin-Kieu Van Nguyen-->
+                          <div class="carousel-item active" style="width: 700px;">
+                            <div class="row" style="background-color: white;">
+                              <div class="row align-items-center">
+                              <div class="col-12 col-md-6 order-md-2 order-1">
+                                <img src="./img/eaut6.png" alt="" class="w-100">
+                              </div>
+                              <div class="col-12 col-md-6 order-md-1 order-2">
+                                <div class="px-xl-4" id="thong-tin">
+                                  <div class="px-3 mb-3">
+                                    <span class="text-brand chuc-danh">
+                                      Chủ nhiệm CLB
+                                    </span>
+                                  </div>
+                                  <div class="px-3 mb-3">
+                                    <span class="nganh-hoc">
+                                      K10-Ngành CNTT
+                                    </span>
+                                  </div>
+                                  <div class="px-3">
+                                    <span class="ten">
+                                      Kiêu Văn Nguyên
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                               <!--Finsh-Kieu Van Nguyen-->
+                               <!--Begin-Dinh Hoang Yen-->
+                          <div class="carousel-item" style="width: 700px;">
+                            <div class="row" style="background-color: white;">
+                              <div class="row align-items-center">
+                              <div class="col-12 col-md-6 order-md-2 order-1">
+                                <img src="./img/eaut5.png" alt="" class="w-100" width="100%">
+                              </div>
+                              <div class="col-12 col-md-6 order-md-1 order-2">
+                                <div class="px-xl-4" id="thong-tin">
+                                  <div class="px-3 mb-3">
+                                    <span class="text-brand chuc-danh-1">
+                                      Cựu chủ nhiệm CLB
+                                    </span>
+                                  </div>
+                                  <div class="px-3 mb-3">
+                                    <span class="nganh-hoc-1">
+                                      K9-Ngành CNTT
+                                    </span>
+                                  </div>
+                                  <div class="px-3">
+                                    <span class="ten-1">
+                                      Đinh Hoàng Yến
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!--Finish Dinh Hoang Yen-->
+                          <div class="carousel-item" style="width: 700px;">
+                            <div class="row" style="background-color: white;">
+                              <div class="row align-items-center">
+                              <div class="col-12 col-md-6 order-md-2 order-1">
+                                <img src="./img/eaut4.png" alt="" class="w-100" width="100%">
+                              </div>
+                              <div class="col-12 col-md-6 order-md-1 order-2">
+                                <div class="px-xl-4" id="thong-tin">
+                                  <div class="px-3 mb-3">
+                                    <span class="text-brand chuc-danh-2">
+                                      Nhà sáng lập
+                                    </span>
+                                  </div>
+                                  <div class="px-3 mb-3">
+                                    <span class="nganh-hoc-2">
+                                      K8-Ngành kế toán
+                                    </span>
+                                  </div>
+                                  <div class="px-3">
+                                    <span class="ten-2">
+                                      Phạm Thị Hoa
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      </div>
+                      </div>
+                      </div>
+                <div class="event-section">
+                  <div class="about-section1">
+                    <h2 class="section-heading text-white">Các sự kiện</h2>
+                  </div>
+                  <div class="event-list">
+                    <div class="event-item">
+                      <img src="./img/IMG_6220.jpg" alt="" class="event-img">
+                      <div class="event-content">
+                        <h3 class="event-heading">Hà Giang</h3>
+                        <p class="event-time">11 thg 11, 2019</p>
+                        <p class="event-description">Từ thiện cho người dân ở Hà Giang</p>
+                        <a href="" class="event-btn">Chi tiết</a>
+                      </div>
+                    </div>
+                    <div class="event-item">
+                      <img src="./img/DSCF4513 (1).jpg" alt="" class="event-img">
+                      <div class="event-content">
+                        <h3 class="event-heading">Hưng Yên</h3>
+                        <p class="event-time">6 thg 4, 2019</p>
+                        <p class="event-description">Giao lưu clb tiếng Anh ở Hưng Yên</p>
+                        <a href="" class="event-btn">Chi tiết</a>
+                      </div>
+                    </div>
+                    <div class="event-item">
+                      <img src="./img/IMG_0912.jpg" alt="" class="event-img">
+                      <div class="event-content">
+                        <h3 class="event-heading">Hà Nội</h3>
+                        <p class="event-time">5 thg 4, 2021</p>
+                        <p class="event-description">Giao lưu với clb tiếng Anh ở Fpoly</p>
+                        <a href="" class="event-btn">Chi tiết</a>
+                      </div>
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                  </div>
+                </div>
             </div>
         </div>
-        <div id="ban-lanh-dao" class="ban-lanh-dao d-block my-x1-5 my-3">
-        <div class="container" id="slide"  style="width: 700px;">
-            <div id="demo" class="carousel slide" data-ride="carousel">
-      
-              <!-- Indicators -->
-              <ul class="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
-              </ul>
-              
-              <!-- The slideshow -->
-              <div class="carousel-inner" style="width: 700px;">
-                <!--Begin-Kieu Van Nguyen-->
-                <div class="carousel-item active" style="width: 700px;">
-                  <div class="row" style="background-color: white;">
-                    <div class="row align-items-center">
-                    <div class="col-12 col-md-6 order-md-2 order-1">
-                      <img src="/img/eaut6.png" alt="" class="w-100">
-                    </div>
-                    <div class="col-12 col-md-6 order-md-1 order-2">
-                      <div class="px-xl-4" id="thong-tin">
-                        <div class="px-3 mb-3">
-                          <span class="text-brand chuc-danh">
-                            Chủ nhiệm CLB
-                          </span>
-                        </div>
-                        <div class="px-3 mb-3">
-                          <span class="nganh-hoc">
-                            K10-Ngành CNTT
-                          </span>
-                        </div>
-                        <div class="px-3">
-                          <span class="ten">
-                            Kiêu Văn Nguyên
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                  </div>
+            </div>
+            <div class="container" style="max-width: 800px;">
+              <div class="contact-section">
+                <div class="about-section2">
+                  <h2 class="section-heading">Liên hệ</h2>
+                  <p class="sub-heading">Để lại thông tin liên hệ</p>
                 </div>
-                     <!--Finsh-Kieu Van Nguyen-->
-                     <!--Begin-Dinh Hoang Yen-->
-                <div class="carousel-item" style="width: 700px;">
-                  <div class="row" style="background-color: white;">
-                    <div class="row align-items-center">
-                    <div class="col-12 col-md-6 order-md-2 order-1">
-                      <img src="/img/eaut5.png" alt="" class="w-100" width="100%">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-6 detail">
+                      <p>
+                        <i class="ti-location-pin"></i>
+                        VietNam, VN
+                      </p>
+                      <p>
+                        <i class="ti-mobile"></i>
+                        Phone: xxx.xxx.xxx
+                      </p>
+                      <p>
+                        <i class="ti-email"></i>
+                        Email: englishclub.eaut@gmail.com
+                      </p>
                     </div>
-                    <div class="col-12 col-md-6 order-md-1 order-2">
-                      <div class="px-xl-4" id="thong-tin">
-                        <div class="px-3 mb-3">
-                          <span class="text-brand chuc-danh-1">
-                            Cựu chủ nhiệm CLB
-                          </span>
-                        </div>
-                        <div class="px-3 mb-3">
-                          <span class="nganh-hoc-1">
-                            K9-Ngành CNTT
-                          </span>
-                        </div>
-                        <div class="px-3">
-                          <span class="ten-1">
-                            Đinh Hoàng Yến
-                          </span>
-                        </div>
+                    <div class="col-md-6 self-contact">
+                      <div>
+                        <input type="text" placeholder="Name" class="form-control">
                       </div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-                <!--Finish Dinh Hoang Yen-->
-                <div class="carousel-item" style="width: 700px;">
-                  <div class="row" style="background-color: white;">
-                    <div class="row align-items-center">
-                    <div class="col-12 col-md-6 order-md-2 order-1">
-                      <img src="/img/eaut4.png" alt="" class="w-100" width="100%">
-                    </div>
-                    <div class="col-12 col-md-6 order-md-1 order-2">
-                      <div class="px-xl-4" id="thong-tin">
-                        <div class="px-3 mb-3">
-                          <span class="text-brand chuc-danh-2">
-                            Nhà sáng lập
-                          </span>
-                        </div>
-                        <div class="px-3 mb-3">
-                          <span class="nganh-hoc-2">
-                            K8-Ngành kế toán
-                          </span>
-                        </div>
-                        <div class="px-3">
-                          <span class="ten-2">
-                            Phạm Thị Hoa
-                          </span>
-                        </div>
+                      <div>
+                        <input type="email" placeholder="Email" class="form-control">
                       </div>
-                    </div>
+                      <button type="Submid" class="form-submit-btn">SEND</button>
                     </div>
                   </div>
                 </div>
               </div>
-              
-              <!-- Left and right controls -->
-              <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </a>
-              <a class="carousel-control-next" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </a>
             </div>
-            </div>
-            </div>
-            <div class="event-section">
-              <h2 class="section-heading">Các sự kiện</h2>
-            </div>
+        </div>
+        <div id="footer">
+          <div class="social-icon">
+            <a href="https://www.facebook.com/eaut.englishclub"><i class="ti-facebook"></i></a>
+            <a href=""><i class="ti-instagram"></i></a>
+            <a href=""><i class="ti-twitter"></i></a>
+          </div>
+          <p class="copyright">Powered by Hoàng Duy</p>
+        </div>
     </div>
+    <script>
+      var header = document.getElementById('header');
+      var mobileMenu = document.getElementById('mobile-menu');
+      var headerHeight = header.clientHeight;
+      mobileMenu.onclick = function() {
+        var isClosed = header.clientHeight === headerHeight;
+        if (isClosed) {
+          header.style.height = 'auto';
+        } else {
+          header.style.height = null;
+        }
+      }
+    </script>
 </body>
 </html>

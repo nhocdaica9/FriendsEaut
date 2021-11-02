@@ -6,8 +6,19 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
-#main{
-
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.clear {
+    clear: both;
+}
+.text-white{
+    color: white !important;
 }
 #nav {
     display: inline-block
@@ -63,16 +74,25 @@ html {
 #nav .nav-down{
     font-size: 10px;
 }
+#header .menu-mobile-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+#header .menu-mobile-btn,
 #header .search-btn{
     float: right;
     padding: 0 21px;
     line-height: 46px;
 }
+#header .menu-mobile-btn:hover,
 #header .search-btn:hover{
     background-color: #ccc;
     cursor: pointer;
 }
-#nav .search-icon{
+#header .menu-icon,
+#header .search-icon{
     color: black;
     font-size: 20px;
 }
@@ -81,11 +101,12 @@ html {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 99999;
 }
 #img {
     margin-top: 46px;
     padding-top: 50%;
-    background-image: url(/img/eaut2.jpg);
+    background-image: url(./img/eaut2.jpg);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -171,6 +192,93 @@ html {
 .w-100{
     width: 100% !important;
 }
-.event-section .section-heading{
+#content .about-section1{
+    width: 800px;
+    padding: 70px 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.event-section{
+    background-color: black;
+}
+.event-list{
+    padding-bottom: 30px;
+}
+.event-item{
+    float: left;
+    width: 33.33333%;
+    padding: 0 8px;
+}
+.event-img{
+    width: 100%;
+}
+.event-img:hover{
+    opacity: 0.6;
+}
+.event-content{
+    background-color: white;
+    padding: 16px;
+    font-size: 15px;
+}
+.event-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.event-time{
+    margin-top: 15px;
+    color: #757575;
+}
+.event-description{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.event-btn{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 11px 16px;
+    margin-top: 15px;
+}
+.event-btn:hover{
+    color: black;
+    background-color: #ccc;
+}
+.about-section2{
+    padding-top: 30px;
     text-align: center;
+}
+.self-contact{
+    font-size: 15px;
+}
+.self-contact .form-control{
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    width: 100%;
+}
+.self-contact .form-submit-btn{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 16px;
+    float: right;
+}
+.self-contact .form-submit-btn:hover{
+    background-color: #ccc;
+    color: black;
+}
+#footer{
+    padding: 64px 16px;
+    text-align: center;
+}
+#footer .social-icon{
+    font-size: 24px;
+}
+#footer .social-icon a{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+#footer .social-icon a:hover{
+    color: rgba(0, 0, 0, 0.3);
 }
