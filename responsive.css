@@ -1,0 +1,26 @@
+@media (max-width: 740px){
+    #nav > li {
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .menu-mobile-btn {
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #content .about-section{
+        width: 100%;
+    }
+    #content .mobile-img{
+        width: 100%;
+    }
+    .event-item{
+        width: 100%;
+    }
+}
