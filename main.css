@@ -282,3 +282,12 @@ html,body
 #footer .social-icon a:hover{
     color: rgba(0, 0, 0, 0.3);
 }
+#slide {
+    width: 50%;
+}
+.sub-heading{
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    opacity: 0.5;
+}
